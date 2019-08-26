@@ -1,0 +1,214 @@
+<section id="hero">
+    <div class="hero-container">
+      <h1>Major Brent Taylor Legacy Foundation</h1>
+      <h2>Become a Legacy Maker! Donate Today!</h2>
+      <div>
+      <iframe src="https://www.youtube.com/embed/diQ2ojaF6s0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      <a href="#donate" class="btn-get-started">Donate</a>
+      </div>
+</section>
+
+  <main id="main">
+
+    <section id="about">
+      <div class="container">
+        <div class="row about-container justify-content-center">
+          <h2 class="title">Our Mission</h2>
+<div id="wall-of-text">
+<p>Major Brent Taylor was killed in action on November 3, 2018 while serving in Afghanistan with the
+United States Army. It is our goal, as his surviving wife and seven children, to establish a memorial
+scholarship in Brent’s name at each of his collegiate alma maters--namely, Brigham Young University
+and the University of Utah. Our fundraising goal for these scholarships is $160,000.
+We are seeking donations from family and friends, local businesses and community organizations to help
+us fully fund these accounts so that the scholarships become endowed--and able to be granted to future
+students in perpetuity.</p>
+<p>It is our desire, as a family, to carry on Brent's legacy of service, sacrifice and statesmanship in a way that
+inspires future students to likewise focus on the same. Our cities, communities, state and nation need
+more of the kind of service-leadership that Brent exemplified. There are many things Brent might have
+gone on to do with his professional and public-service life, had he had more years of life on earth. Now
+that he is no longer here to fulfill any such future roles of leadership, that torch must be passed on to the
+next generation.</p>
+<p>Once we have raised $160,000 the funds will be allocated as follows: $60,000 to BYU for one full-tuition
+undergraduate scholarship each year, awarded in perpetuity; and $50,000 each for one master’s and one
+doctoral candidate scholarship each year, awarded in perpetuity.
+Please join us in our efforts—that the legacy of Major Brent Taylor is carried forward in a way that
+motivates and inspires future leaders to see past their own individual lives while focusing on true service-
+oriented leadership. Become a “Legacy Maker” today with a financial donation of any amount.</p>
+
+<h3>About Major Taylor</h3>
+<div id="brent-more-info">
+<p>
+  Major Brent Taylor was on his second term as the mayor of North Ogden when he took an unprecedented
+  year of absence to serve his fourth deployment in Afghanistan. In November of 2018, Major Taylor was
+  killed in an insider attack in Kabul. This made him the first sitting U.S. politician to be killed in action
+  since the Civil War. He is survived by his wife, Jennie Taylor, and seven children. To Brent, God, family
+  and country were everything and had become his mantra that steered his life.
+  </p>
+</div>
+</div>
+
+<button  (click)="displayMoreText()">Read More</button>
+    <span id="read-more"></span>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="donate">
+      <section id="portfolio">
+        <div class="container wow">
+          <div class="section-header">
+            <h3 class="section-title">Donate</h3>
+            <p class="section-description">please contribute to our cause!</p>
+          </div>
+          <div class="container wow fadeInUp mt-5">
+            <div class="row justify-content-center">
+              <iframe class='gfm-media-widget' image='1' coinfo='0' width='100%' height='100%' frameborder='0'
+                id='major-brent-taylor-leadership-legacy'></iframe>
+            </div>
+            <div class="col-lg-12">
+              <ul id="portfolio-flters">
+                <span (click)="showButton('utah')">
+                <li data-filter=".filter-utah"  class="filter-active utah">University of Utah</li>
+                </span>
+                <li data-filter=".filter-byu" (click)="showButton('byu');"class="byu">Brigham Young University</li>
+                <li data-filter=".filter-paypal" (click)="showButton('paypal');"class ="paypal">PayPal</li>
+                <li data-filter=".filter-venmo" (click)="showButton('venmo');"class="venmo">Venmo</li>
+                <li data-filter=".filter-zions" (click)="showButton('zions');"class="zions">Zions Bank</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div style="display=none" class="row" id="portfolio-wrapper">
+          <div class="col-lg-12 filter-utah portfolio-item justify-content-center donate-box" id="utah">
+            <p>
+              To donate to the University of Utah, click the button below and be sure to select "in honor of" with
+              "Brent
+              Taylor" as the honoree's name.
+            </p>
+            <div>
+              <a href="https://bit.ly/2PrMIvo" class="btn btn-default">
+                <img src="https://umc.utah.edu/wp-content/uploads/sites/15/2015/01/BlockU_400px.png" width="40" />
+                Donate
+                to the University of Utah.
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-12 filter-byu portfolio-item justify-content-center donate-box" id="byu">
+            <p>
+              To donate to Brigham Young University click the button below and press the search button. Within the
+              search box
+              type "Brent" and the "Brent and Jennie Taylor Family Endowed Scholarship Fund - BYU" will appear.
+            </p>
+            <div>
+              <a href="https://ldsp-pay.ldschurch.org/donations/lds-church/ldsp.html?cde2=795-home&"
+                class="btn btn-default">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/BYU_Cougars_logo.svg/542px-BYU_Cougars_logo.svg.png"
+                  width="40" /> Donate to Brigham Young University.
+              </a>
+            </div>
+          </div>
+
+          <div class="filter-paypal portfolio-item justify-content-center donate-box" id="paypal">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_donations" />
+              <input type="hidden" name="business" value="majorbrenttaylor@gmail.com" />
+              <input type="hidden" name="item_name" value="In honor of Brent Taylor" />
+              <input type="hidden" name="currency_code" value="USD" />
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0"
+                name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+              <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+
+          </div>
+
+
+          <div class="filter-venmo portfolio-item justify-content-center donate-box" id="venmo">
+            <p>To donate via Venmo please send your donations to @jennie-taylor-5</p>
+          </div>
+
+          <div class="filter-zions portfolio-item justify-content-center donate-box" id="zions">
+            <p>To donate directly to the cause, please contact Zions Bank and ask to make a donation to "Major Brent
+              Taylor Leadership Legacy Foundation"</p>
+          </div>
+
+        </div>
+      </section>
+    </section>
+    <section id="contact">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Contact</h3>
+          <p class="section-description">Mrs. Jennie Taylor, Brent’s wife/widow</p>
+        </div>
+      </div>
+
+      <div class="container wow fadeInUp mt-5">
+        <div class="row justify-content-center">
+
+          <div class="col-lg-3 col-md-4">
+
+            <div class="info">
+              <div>
+                <i class="fa fa-envelope"></i>
+                <p>majorbrenttaylor@gmail.com</p>
+              </div>
+
+              <div>
+                <i class="fa fa-phone"></i>
+                <p>801-628-3848</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                    data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                    data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required"
+                    data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+
+
+
+
