@@ -1,0 +1,85 @@
+<section id="donate">
+  <section id="portfolio">
+    <div class="container wow">
+      <div class="section-header">
+        <h3 class="section-title">Donate</h3>
+        <p class="section-description">please contribute to our cause!</p>
+      </div>
+      <div class="container wow fadeInUp mt-5">
+        <div class="row justify-content-center">
+          <iframe class='gfm-media-widget' image='1' coinfo='0' width='100%' height='100%' frameborder='0'
+            id='major-brent-taylor-leadership-legacy'></iframe>
+        </div>
+        <hr>
+        <div class="col-lg-12">
+            <img src="../assets/imgs/Slide1.JPG" width='100%'>
+            <hr>
+          <ul id="portfolio-flters">
+            <span (click)="showButton('utah');"><li data-filter=".filter-utah"  class="filter-active utah">University of Utah</li></span>
+            <span (click)="showButton('BYUBYUBYU');"><li data-filter=".filter-BYUBYUBYU" class="BYUBYUBYU">Brigham Young University</li></span>
+            <span (click)="showButton('paypal');"><li data-filter=".filter-paypal" class ="paypal">PayPal</li></span>
+            <span (click)="showButton('venmo');"><li data-filter=".filter-venmo" class="venmo">Venmo</li></span>
+            <span (click)="showButton('zions');"><li data-filter=".filter-zions" class="zions">Zions Bank</li></span>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="portfolio-wrapper">
+      <div class="col-lg-12 filter-utah portfolio-item justify-content-center donate-box" id="utah">
+        <p>
+          To donate to the University of Utah, click the button below and be sure to select "in honor of" with
+          "Brent
+          Taylor" as the honoree's name.
+        </p>
+        <div>
+          <a href="https://bit.ly/2PrMIvo" class="btn btn-default">
+            <img src="https://umc.utah.edu/wp-content/uploads/sites/15/2015/01/BlockU_400px.png" width="40" />
+            Donate
+            to the University of Utah.
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-12 filter-BYUBYUBYU portfolio-item justify-content-center donate-box" id="BYUBYUBYU">
+        <p>
+          To donate to Brigham Young University click the button below and press the search button. Within the
+          search box
+          type "Brent" and the "Brent and Jennie Taylor Family Endowed Scholarship Fund - BYU" will appear.
+        </p>
+        <div>
+          <a href="https://ldsp-pay.ldschurch.org/donations/lds-church/ldsp.html?cde2=795-home&"
+            class="btn btn-default">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/BYU_Cougars_logo.svg/542px-BYU_Cougars_logo.svg.png"
+              width="40" /> Donate to Brigham Young University.
+          </a>
+        </div>
+      </div>
+
+      <div class="filter-paypal portfolio-item justify-content-center donate-box" id="paypal">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_donations" />
+          <input type="hidden" name="business" value="majorbrenttaylor@gmail.com" />
+          <input type="hidden" name="item_name" value="In honor of Brent Taylor" />
+          <input type="hidden" name="currency_code" value="USD" />
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+            name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+          <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+
+      </div>
+
+
+      <div class="filter-venmo portfolio-item justify-content-center donate-box" id="venmo">
+        <p>To donate via Venmo please send your donations to @jennie-taylor-5</p>
+      </div>
+
+      <div class="filter-zions portfolio-item justify-content-center donate-box" id="zions">
+        <p>To donate directly to the cause, please contact Zions Bank and ask to make a donation to "Major Brent
+          Taylor Leadership Legacy Foundation"</p>
+      </div>
+
+    </div>
+  </section>
+</section>

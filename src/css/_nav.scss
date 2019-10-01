@@ -105,7 +105,7 @@
     transition: all 0.3s ease-in-out 0s;
   }
 
-  a:hover:before, li:hover > a:before, .menu-active > a:before  {
+  a:hover:before, li:hover > a:before, .menu-active {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);

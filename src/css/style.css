@@ -80,10 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo {
   float: left;
 }
-iframe{
-  width: 100%;
-  height: 100%;
-}
+
 #header #logo h1 {
   font-size: 36px;
   margin: 0;
@@ -697,11 +694,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 100%;
 }
 .donate-box-enabled{
-  float: center;
   margin: auto;
-  position: flex;
   text-align: center;
-  display: block-inline;
   width: 100%;
   height: 100%;
 }
