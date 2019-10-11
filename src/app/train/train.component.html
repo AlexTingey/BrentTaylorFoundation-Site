@@ -28,7 +28,7 @@ oriented leadership. Become a “Legacy Maker” today with a financial donation
 
 <h3>About Major Taylor</h3>
 <div id="brent-more-info">
-<p>
+<p id="read-more">
 Major Brent Taylor was on his second term as the mayor of North Ogden when he took an unprecedented
 year of absence to serve his fourth deployment in Afghanistan. In November of 2018, Major Taylor was
 killed in an insider attack in Kabul. This made him the first sitting U.S. politician to be killed in action
@@ -38,10 +38,11 @@ and country were everything and had become his mantra that steered his life.
 </div>
 </div>
 
-<button  (click)="displayMoreText()">Read More</button>
-  <span id="read-more"></span>
-  <app-scroller *ngIf="moreInfoClicked===true"></app-scroller>
-      </div>
-    </div>
-  </section>
+<app-scroller *ngIf="moreInfoClicked===true"></app-scroller>
+</div>
+  <div id="button-container">
+    <button id="more-button" (click)="displayMoreText()">{{moreInfoClicked ? 'Hide' : 'Read More'}}</button>
+  </div>
+</div>
+</section>
 <app-old-competition></app-old-competition>
