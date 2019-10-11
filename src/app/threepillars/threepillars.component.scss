@@ -1,15 +1,22 @@
 
-  .train{
-    background: #b22234;
+.train{
+    background-color: #b22234;
     color: white;
   }
-  .honor{
+.honor{
     background: #ffffff;
   }
-  .engage{
+.engage{
     background: #3c3b6e;
     color: white;
   }
 .footer{
   text-align: center;
+}
+mat-grid-list {
+  overflow: hidden;
+
+}
+    .mat-ink-bar{
+      background-color:#3c3b6e;
 }

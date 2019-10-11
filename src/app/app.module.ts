@@ -24,6 +24,11 @@ import { HonorComponent } from './honor/honor.component';
 import { EngageComponent } from './engage/engage.component';
 import { OldCompetitionComponent } from './old-competition/old-competition.component';
 import {MatButtonModule} from '@angular/material/button';
+import {MatExpansionModule} from '@angular/material/expansion';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatListModule} from '@angular/material/list';
+import {MatTabsModule} from '@angular/material/tabs';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,13 +50,17 @@ import {MatButtonModule} from '@angular/material/button';
     VideosComponent,
     HonorComponent,
     EngageComponent,
-    OldCompetitionComponent
+    OldCompetitionComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatGridListModule,
-    MatButtonModule
+    MatButtonModule,
+    MatExpansionModule,
+    BrowserAnimationsModule,
+    MatListModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

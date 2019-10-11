@@ -1,15 +1,5 @@
-<mat-grid-list cols="3" rowHeight="3:1">
-  <mat-grid-tile class="train" (click)="buttonClicked('train')">TRAIN
-    <mat-grid-tile-footer class="train footer ">We aim to TRAIN our current and future leaders through leadership workshops and scholarship opportunities</mat-grid-tile-footer>
-  </mat-grid-tile>
-  <mat-grid-tile class="honor" (click)="buttonClicked('honor')">HONOR
-    <mat-grid-tile-footer class="honor footer">We aim to HONOR local military members and their families through by telling their stories and celebrating their service</mat-grid-tile-footer>
-  </mat-grid-tile>
-  <mat-grid-tile class="engage" (click)="buttonClicked('engage')">ENGAGE
-    <mat-grid-tile-footer class="honor footer">We aim to ENGAGE individuals, families and businesses through shared community events</mat-grid-tile-footer>
-
-  </mat-grid-tile>
-</mat-grid-list>
-<app-train *ngIf='train===true'></app-train>
-<app-honor *ngIf='honor===true'></app-honor>
-<app-engage *ngIf='engage===true'></app-engage>
+<mat-tab-group mat-align-tabs="center">
+  <mat-tab class="train" label="TRAIN"><app-train></app-train></mat-tab>
+  <mat-tab label="HONOR"><app-honor></app-honor></mat-tab>
+  <mat-tab label="ENGAGE"><app-engage></app-engage></mat-tab>
+</mat-tab-group>

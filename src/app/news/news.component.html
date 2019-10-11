@@ -1,1 +1,77 @@
 <app-nav></app-nav>
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      Major Brent Taylor's Death in Headline News
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+
+  <mat-list role="list">
+    <mat-list-item role="listitem" *ngFor="let link of linksOnPassing">
+
+      <a href={{link.link}}>{{link.source}}</a>
+    </mat-list-item>
+  </mat-list>
+
+</mat-expansion-panel>
+
+<mat-expansion-panel id="dover">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Dignified Transfer at Dover Air Base
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <mat-list role="list">
+      <mat-list-item role="listitem" *ngFor="let link of linksOnDover">
+
+        <a href={{link.link}}>{{link.source}}</a>
+      </mat-list-item>
+    </mat-list>
+
+  </mat-expansion-panel>
+  <mat-expansion-panel id="dover">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+            Veteran's Day Vigil
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+
+      <mat-list role="list">
+        <mat-list-item role="listitem" *ngFor="let link of linksOnVigil">
+
+          <a href={{link.link}}>{{link.source}}</a>
+        </mat-list-item>
+      </mat-list>
+
+    </mat-expansion-panel>
+    <mat-expansion-panel id="funeral">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Major Taylor's Funeral
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <mat-list role="list">
+          <mat-list-item role="listitem" *ngFor="let link of linksOnFuneral">
+
+            <a href={{link.link}}>{{link.source}}</a>
+          </mat-list-item>
+        </mat-list>
+
+      </mat-expansion-panel>
+      <mat-expansion-panel id="jennie">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Gold Star Widow Jennie Taylor Interviews
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <mat-list role="list">
+          <mat-list-item role="listitem" *ngFor="let link of jennieLinks">
+
+            <a href={{link.link}}>{{link.source}}</a>
+          </mat-list-item>
+        </mat-list>
+
+      </mat-expansion-panel>
