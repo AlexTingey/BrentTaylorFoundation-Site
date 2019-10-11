@@ -29,6 +29,7 @@ $theme: mat-light-theme($primary, $accent, $warn);
 body {
   font-family: mat-font-family($config);
   font-weight: normal;
+  overflow-x: hidden !important
 }
 
 h1, h2, h3, h4 {

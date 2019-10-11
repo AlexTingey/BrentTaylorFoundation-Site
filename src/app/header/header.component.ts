@@ -16,17 +16,16 @@ const routes: Routes = [
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  @HostListener('window:resize', ['$event'])
-  screenWidth: any;
-  screenHeight: any;
-
-  onResize(event?) {
-    this.screenHeight = window.innerHeight;
-    this.screenWidth = window.innerWidth;
-    console.log(this.screenHeight, this.screenWidth);
- }
+  newInnerWidth: any;
+  newInnerHeight: any;
+  mobile: boolean;
   constructor() {
-    this.onResize();
+    this.newInnerWidth = window.innerHeight;
+    this.newInnerHeight = window.innerWidth;
+    this.mobile = false;
+    if(this.newInnerWidth <= 768){
+      this.mobile = true;
+    }
   }
 
   ngOnInit() {
